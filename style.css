@@ -241,3 +241,27 @@ body{
     color: rgb(108, 108, 108);
     transform: scale(1.4);
 }
+
+.section4{
+    display: flex;
+    
+    padding: 4rem;
+    gap: 3rem;
+}
+.section4 .text1{
+   font-size: 30rem;
+   font-weight: bold;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   margin: 0;
+}
+.section4 .texts {
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding-top: 7rem;
+}
+.section4 .texts p{
+    margin: 0;
+
+}
