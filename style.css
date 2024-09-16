@@ -242,7 +242,7 @@ body{
     transform: scale(1.4);
 }
 
-.section4{
+.main1{
     display: flex;
     
     padding: 4rem;
@@ -264,4 +264,21 @@ body{
 .section4 .texts p{
     margin: 0;
 
+}
+.section4 .main2{
+    display: flex;
+    padding: 5rem;
+   gap: 3rem;
+}
+.section4 .main2 p{
+    font-size: 25px;
+    text-align: justify;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-weight: bolder;
+    padding: 3rem;
+    transition: all ease-in-out 0.3s;
+}
+.section4 .main2 p:hover{
+    transform: translateY(-20px);
 }
