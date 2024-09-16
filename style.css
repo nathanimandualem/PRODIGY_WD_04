@@ -81,10 +81,10 @@ body{
     transform: scale(1.3);
     transition: 0.3s;
 }
-.main .image p{
+.main .mainText{
     color: rgb(0, 0, 0);
-    margin: 0;
-    
+    margin-left: 3rem;
+    margin-bottom: 3rem;
     font-size: 30px;
     font-family: sans-serif;
     font-weight: 800;
@@ -116,4 +116,17 @@ body{
 .sidebar button:hover{
     transform: translateX(-20px);
     transition: 0.1s;
+}
+
+.section2{
+    display: flex;
+    flex-direction: column;
+
+}
+.section2 .text1{
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 800;
 }
