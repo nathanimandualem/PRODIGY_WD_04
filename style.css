@@ -121,12 +121,56 @@ body{
 .section2{
     display: flex;
     flex-direction: column;
+    padding: 3rem;
 
 }
 .section2 .text1{
     color: rgb(0, 0, 0);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
-    font-size: 30px;
+    font-size: 40px;
     font-family: sans-serif;
     font-weight: 800;
+}
+.section2 .line{
+    border-bottom: 2px solid black;
+    width: 100vh;
+}
+.section2 .main{
+    padding: 3rem;
+    margin-right: 6rem;
+}
+
+.section2 .text2{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.section2 .text3{
+     font-size: 25px;
+     font-weight: 800;
+}
+.section2 ul{
+    gap: 2rem;
+}
+
+.section2 .line2{
+    height: 500px;
+    width: 10px;
+    border-left: 2px solid black;
+    margin: 2rem;
+}
+
+.section2 .text4{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.section2 .text5{
+     font-size: 25px;
+     font-weight: 800;
+}
+.section2 ul li{
+    font-size: 23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
 }
