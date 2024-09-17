@@ -285,3 +285,42 @@ body{
 .section4 .main2 p:hover{
     transform: translateY(-40px);
 }
+
+
+
+
+.section5 .part{
+    display: flex;
+    gap: 6rem;
+    padding: 5rem;
+}
+.section5 .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section5 button{
+    background-color: rgb(230, 231, 232);
+    border-radius: 30px;
+    padding: 1rem;
+    border: 1px solid black;
+}
+.section5 .texts{
+    gap: 1em;
+}
+.section5 .texts .text1{
+    font-size: 20px;
+}
+.section5 .part .text2{
+    font-size: 45px;
+    font-weight: bold;
+    font-family: c;
+}
+.section5 .text3{
+    font-size: 25px;
+}
+.section5 .line{
+    border: 2px solid black;
+    width: 100vh;
+    margin-left: 4rem;
+}
