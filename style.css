@@ -399,5 +399,46 @@ border-radius: 50%;
     width: 10rem;
     height: 10rem;
 }
+.section7{
+    padding: 10rem;
+}
+.section7 .main1{
+    padding: 0;
+}
+.section7 .text1{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.section7 div{
+    width: 25rem;
+}
+.section7 div button img{
+    width: 40px;
+    height: 20px;
 
-.section
+}
+.section7 div button{
+   
+    background-color: rgb(57, 121, 180);
+    border-radius: 30px;
+    align-items: center;
+
+}
+.section7 div .button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all ease-in-out 0.3s;
+}
+.section7 div .button:hover{
+    transform: scale(1.2);
+}
+.section7 .main2{
+    display: flex;
+    gap: 2.5rem;
+}
+.section7 .main3{
+    display: flex;
+    gap: 2.5rem;
+}
