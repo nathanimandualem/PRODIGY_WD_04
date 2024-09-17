@@ -70,6 +70,7 @@ body{
     height:  100px;
     position: relative;
     text-align: center;
+    transition: all ease-in-out 0.3s;
     
 }
 
@@ -78,9 +79,9 @@ body{
  height: auto;
  background-color: transparent;
 }
-.main img:hover{
+.main .image:hover{
     transform: scale(1.3);
-    transition: ease-in-out 0.3s;
+    
 }
 .main .mainText{
     color: rgb(0, 0, 0);
@@ -298,12 +299,21 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all ease-in-out 0.3s;
+}
+.section5 .button a{
+    text-decoration: none;
 }
 .section5 button{
     background-color: rgb(230, 231, 232);
     border-radius: 30px;
     padding: 1rem;
     border: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+.section5 .button:hover{
+    transform: scale(1.2);
 }
 .section5 .texts{
     gap: 1em;
@@ -314,13 +324,13 @@ body{
 .section5 .part .text2{
     font-size: 45px;
     font-weight: bold;
-    font-family: c;
+    font-family: cursive;
 }
 .section5 .text3{
     font-size: 25px;
 }
 .section5 .line{
-    border: 2px solid black;
+    border: 2px solid rgb(107, 100, 100);
     width: 100vh;
     margin-left: 4rem;
 }
