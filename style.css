@@ -8,13 +8,14 @@ body{
 }
 
 .container{
-    background-color: rgb(152, 76, 80);
+    background-color: rgb(246, 240, 240);
    
 }
 .section1{
     display: grid;
     grid-template-columns: 90% 10%;
     grid-template-rows: 10% 90%;
+   
    
 }
 .section1 header{
@@ -103,15 +104,17 @@ body{
     gap: 2rem;
     top: 36px;
     z-index: 1000;
+    position: -webkit-sticky;
 
 }
 .sidebar button{
     font-size: 18px;
     font-weight: 400;
-    background-color: transparent;
+    background-color: rgb(223, 221, 222);
     border-radius: 30px;
     border: 2px solid black;
     padding: 10px;
+    
 }
 .sidebar button:hover{
     transform: translateX(-20px);
@@ -280,5 +283,5 @@ body{
     transition: all ease-in-out 0.3s;
 }
 .section4 .main2 p:hover{
-    transform: translateY(-20px);
+    transform: translateY(-40px);
 }
