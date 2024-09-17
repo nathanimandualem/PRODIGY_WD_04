@@ -337,6 +337,7 @@ body{
 .section6 .main{
     display: flex;
     flex-direction: column;
+    gap: 5rem;
 }
 .section6 .text1 {
     font-size: 50px;
@@ -354,8 +355,8 @@ body{
 }
 
 .section6 .part1 img{
-width: 5rem;
-height: 5rem;
+width: 10rem;
+height: 10rem;
 border-radius: 50%;
 }
 .section6 .part2{
@@ -380,8 +381,8 @@ border-radius: 50%;
 }
 .section6 .part3 img{
     border-radius: 50%;
-    width: 5rem;
-    height: 5rem;
+    width: 10rem;
+    height: 10rem;
 }
 .section6 .part1 .images{
     display: flex;
@@ -389,4 +390,12 @@ border-radius: 50%;
 }
 .section6 .text2{
     font-size: 20px;
+}
+.section6 .part4{
+    margin-left: 30rem;
+}
+.section6 .part4 img{
+    border-radius: 20px;
+    width: 10rem;
+    height: 10rem;
 }
