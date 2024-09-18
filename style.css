@@ -115,16 +115,18 @@ body{
 
 }
 
-.sidebar button{
+.sidebar a button{
     font-size: 18px;
     font-weight: 400;
     background-color: rgb(223, 221, 222);
     border-radius: 30px;
     border: 2px solid black;
     padding: 10px;
+    width: 8rem;
     
     
 }
+
 .sidebar button:hover{
     transform: translateX(-20px);
     transition: 0.1s;
@@ -422,7 +424,7 @@ border-radius: 50%;
     width: 25rem;
 }
 .section7 div button img{
-    width: 40px;
+    width: 60px;
     height: 20px;
 
 }
@@ -449,4 +451,7 @@ border-radius: 50%;
 .section7 .main3{
     display: flex;
     gap: 2.5rem;
+}
+.section7 p{
+    font-size: 20px;
 }
