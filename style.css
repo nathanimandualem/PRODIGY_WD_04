@@ -455,3 +455,52 @@ border-radius: 50%;
 .section7 p{
     font-size: 20px;
 }
+@media (max-width: 1000px) {
+    .section3 .image {
+        margin: 100px;
+    }
+    .main1{
+        padding: 0;
+    }
+    .section4 .text1{
+        font-size: 20rem;
+    }
+    .section4 .texts p{
+        font-size: 1.5rem;
+    }
+    .section4 .main2 p{
+        font-size: 15px;
+        padding: 10px;
+    }
+    .section4 .main2{
+        gap: 1.5rem;
+    }
+    .section4 .texts{
+        width: 20rem;
+    }
+    .section5 .part{
+        gap: 1rem;
+    }
+    .section5 .texts{
+        width: 30rem;
+    }
+    .section6 .part1 img{
+        width: 5rem;
+        height: 5rem;
+    }
+    .section6 .text1 {
+        font-size: 35px;
+    }
+    .section6 .text2{
+        width: 35rem;
+    }
+    .section6 .part2{
+        margin-left: 15rem;
+    }
+    .section6 .part4{
+        margin-left: 15rem;
+    }
+    .section6 .main {
+        padding: 2rem;
+    }
+}
