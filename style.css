@@ -596,4 +596,8 @@ border-radius: 50%;
   .main .text {
     padding: 2rem;
   }
+  .main .image{
+    width: 200px;
+    height: 50px;
+  }
 }
