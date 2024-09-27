@@ -531,6 +531,10 @@ border-radius: 50%;
     top: 10px;
     right: 20px ;
    border-radius: 20px;
+   transition: all ease-in-out 0.3s;
+  }
+  .menu-btn:hover{
+    transform: scale(1.2);
   }
   #sidebar2 {
     height: 100%;
@@ -565,11 +569,31 @@ border-radius: 50%;
     right: 20px;
   }
   .section1 header{
-    width: 100%;
+    width: 100vh;
     border-radius: 10pxpx;
     transition: all ease-in-out 0.3s;
     position: fixed;
     top: 0;
   }
   
+  .section6 .text2 {
+    width: 28rem;
+  }
+  .section5 .line  {
+    width: 80vh;
+  }
+  .section6 .text1 {
+    width: 20rem;
+  }
+  .main {
+    flex-direction: column;
+    width: 100%;
+  }
+  .section2 .line2{
+    height: 10px;
+    width: 500px;
+  }
+  .main .text {
+    padding: 2rem;
+  }
 }
