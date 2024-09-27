@@ -8,3 +8,15 @@
           sidebar.style.right = '0px'; 
         }
       }
+      if  (window.matchMedia("(max-width: 800px)").matches) {
+      window.addEventListener('scroll', function(){
+        const header =  document.getElementById('firstHeader');
+        
+        if(window.scrollY > 50){
+          header.style.backgroundColor = '#e1e1e1'
+         
+        }
+        else{
+          header.style.backgroundColor = 'transparent'
+          
+        }})}
