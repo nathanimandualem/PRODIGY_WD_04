@@ -586,7 +586,7 @@ border-radius: 50%;
     width: 20rem;
   }
   .main {
-    flex-direction: column;
+    flex-direction: row;
     width: 100%;
   }
   .section2 .line2{
@@ -595,9 +595,17 @@ border-radius: 50%;
   }
   .main .text {
     padding: 2rem;
+    font-size: 14px;
+    width: 15rem;
   }
   .main .image{
     width: 200px;
     height: 50px;
+  }
+  .main .mainText{
+    font-size: 23px;
+    top: 50%;
+    margin-left: 30px;
+    width: 20rem;
   }
 }
