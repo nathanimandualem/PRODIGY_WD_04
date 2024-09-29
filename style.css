@@ -591,7 +591,7 @@ border-radius: 50%;
     width: 20rem;
   }
   .main {
-    flex-direction: row;
+    flex-direction: column;
     width: 100%;
   }
   .section2 .line2{
@@ -600,7 +600,7 @@ border-radius: 50%;
   .main .text {
     padding: 2rem;
     font-size: 14px;
-    width: 15rem;
+    width: 35rem;
   }
   .main .image{
     width: 200px;
@@ -608,8 +608,8 @@ border-radius: 50%;
   }
   .main .mainText{
     font-size: 20px;
-    top: 37%;
-    margin-left: 57px;
+    top: 60%;
+    margin-left: 0px;
     width: 20rem;
 }
   
@@ -635,7 +635,7 @@ border-radius: 50%;
     gap: 4rem;
   }
   .section2{
-   margin-top: 5rem;
+   margin-top: 10rem;
     height: fit-content;
   }
   .section3 .image {
