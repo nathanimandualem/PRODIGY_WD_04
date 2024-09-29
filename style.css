@@ -660,4 +660,8 @@ border-radius: 50%;
 .main1 {
     gap: 0;
 }
+.section6 .text2 {
+    width: 20rem;
+    font-size: 17px;
+}
 }
