@@ -606,11 +606,12 @@ border-radius: 50%;
     height: 50px;
   }
   .main .mainText{
-    font-size: 23px;
-    top: 40%;
-    margin-left: -44px;
+    font-size: 20px;
+    top: 37%;
+    margin-left: 57px;
     width: 20rem;
-  }
+}
+  
   .section2 .text2{
     font-size: 20px;
   }
