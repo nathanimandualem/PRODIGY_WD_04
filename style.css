@@ -4,15 +4,19 @@ html{
 body{
     margin: 0;
     padding: 0;
-    
+    box-sizing: border-box;
     overflow-x: hidden;
+    width: 100%;
 }
 *{
     box-sizing: border-box;
+   
 }
 
 .container{
     background-color: rgb(246, 240, 240);
+    width: 100vw;
+    
     
    
 }
@@ -20,7 +24,7 @@ body{
     display: grid;
     grid-template-columns: 90% 10%;
     grid-template-rows: 10% 90%;
-    overflow: visible;
+   
    
    
 }
@@ -695,8 +699,8 @@ border-radius: 50%;
     top: 70%;
 }
 .main .text {
-    width: 30rem;
-    font-size: 20px;
+    width: 21rem;
+    font-size: 10px;
 }
 .section1{
     display: block;
