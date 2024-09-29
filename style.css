@@ -654,4 +654,10 @@ border-radius: 50%;
 .section4 .text1{
     font-size: 20rem;
 }
+.section4 .texts p {
+    font-size: 15px;
+}
+.main1 {
+    gap: 0;
+}
 }
