@@ -590,8 +590,7 @@ border-radius: 50%;
     width: 100%;
   }
   .section2 .line2{
-    height: 10px;
-    width: 500px;
+  display: none;
   }
   .main .text {
     padding: 2rem;
@@ -608,4 +607,51 @@ border-radius: 50%;
     margin-left: 30px;
     width: 20rem;
   }
+  .section2 .text2{
+    font-size: 20px;
+  }
+  .section2 .text4{
+    font-size: 20px;
+  }
+  .section2 .text3 {
+    font-size: 15px;
+
+  }
+  .section2 .text5{
+    font-size: 15px;
+  }
+  .section2 ul li {
+    font-size: 13px;
+  }
+  .section2 .main{
+    padding: 0;
+    margin: 0;
+    gap: 4rem;
+  }
+  .section2{
+    padding: 1rem;
+    height: 200vh;
+  }
+  .section3 .image {
+    display: block;
+    max-height: fit-content;
+    width: auto;
+}
+.section3 .text3 {
+    font-size: 15px;
+    text-align: justify;
+}
+.section3 .part2{
+    margin-top: 70rem;
+    flex-direction: row;
+    padding: 3rem;
+
+}
+.section3 .part2 img{
+    width: 20rem;
+    height: 20rem;
+}
+.section4 .text1{
+    font-size: 20rem;
+}
 }
