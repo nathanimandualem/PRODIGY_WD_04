@@ -498,7 +498,7 @@ border-radius: 50%;
         gap: 1rem;
     }
     .section5 .texts{
-        width: 30rem;
+        width: 10rem;
     }
     .section6 .part1 img{
         width: 5rem;
@@ -579,7 +579,7 @@ border-radius: 50%;
   }
   .section1 header{
     width: 100vw;
-    border-radius: 10pxpx;
+    border-radius: 10px;
     transition: all ease-in-out 0.3s;
     position: fixed;
     top: 0;
@@ -696,7 +696,7 @@ border-radius: 50%;
 }
 .main .mainText {
     position: absolute;
-    top: 62%;
+    top: 58%;
     left: 50%;
     width: 17rem;
 }
@@ -806,7 +806,7 @@ margin-right: 5rem;
     padding-left: 0;
 }
 .section1 header {
-    width: 90vw;
+    width: 100vw;
     overflow-x: hidden;
 }
 .section6 .part3 .images{
