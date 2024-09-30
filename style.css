@@ -602,9 +602,12 @@ border-radius: 50%;
   display: none;
   }
   .main .text {
-    padding: 2rem;
+    padding-top: 3rem;
+    
     font-size: 14px;
     width: 35rem;
+    padding-left: 0;
+    padding-right: 0;
   }
   .main .image{
     width: 200px;
