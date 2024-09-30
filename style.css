@@ -5,7 +5,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow-x: hidden;
+    
     
 }
 *{
@@ -15,7 +15,7 @@ body{
 
 .container{
     background-color: rgb(246, 240, 240);
-  
+   
     
     
    
@@ -152,7 +152,7 @@ body{
     display: flex;
     flex-direction: column;
     padding: 3rem;
-    overflow: visible;
+    overflow: hidden;
    }
 .section2 .text1{
     color: rgb(0, 0, 0);
@@ -342,7 +342,7 @@ body{
     transform: scale(1.2);
 }
 .section5 .texts{
-    gap: 1em;
+    gap: 1rem;
 }
 .section5 .texts .text1{
     font-size: 20px;
@@ -485,7 +485,7 @@ border-radius: 50%;
         font-size: 1.5rem;
     }
     .section4 .main2 p{
-        font-size: 15px;
+        font-size: 11px;
         padding: 10px;
     }
     .section4 .main2{
@@ -538,7 +538,7 @@ border-radius: 50%;
     display: block;
     position: fixed;
     top: 10px;
-    right: 20px ;
+    right: 10%;
    border-radius: 20px;
    transition: all ease-in-out 0.3s;
   }
@@ -578,7 +578,7 @@ border-radius: 50%;
     right: 20px;
   }
   .section1 header{
-    width: 100vh;
+    width: 100vw;
     border-radius: 10pxpx;
     transition: all ease-in-out 0.3s;
     position: fixed;
@@ -589,7 +589,7 @@ border-radius: 50%;
     width: 28rem;
   }
   .section5 .line  {
-    width: 80vh;
+    width: 80vw;
   }
   .section6 .text1 {
     width: 20rem;
@@ -682,7 +682,7 @@ border-radius: 50%;
     margin-left: 0;
 }
 .section5 .line{
-    width: 60vh;
+    width: 60vw;
 }
 }
 
@@ -696,7 +696,9 @@ border-radius: 50%;
 }
 .main .mainText {
     position: absolute;
-    top: 70%;
+    top: 62%;
+    left: 50%;
+    width: 17rem;
 }
 .main .text {
     width: 21rem;
@@ -738,7 +740,7 @@ margin-right: 5rem;
     padding: 1rem;
 }
 .section5 .line {
-    width: 30vh;
+    width: 30vw;
     margin-left: 20px;
 }
 .section6{
@@ -781,7 +783,9 @@ margin-right: 5rem;
    margin-right: 0;
 }
 .section6 .text2{
-    
+    width: auto;
+    font-size: 19px;
+    text-align: justify;
 }
 
 .section5 button{
@@ -804,5 +808,21 @@ margin-right: 5rem;
 .section1 header {
     width: 90vw;
     overflow-x: hidden;
+}
+.section6 .part3 .images{
+    gap: 0;
+}
+.section6 .part3  img{
+    width: 5rem;
+    height: 5rem;
+}
+.section7 p{
+    font-size: 17px;
+    text-align: justify;
+    width: 12rem;
+    overflow: hidden;
+}
+.section7 div{
+    width: 17rem;
 }
 }
