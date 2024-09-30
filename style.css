@@ -6,7 +6,7 @@ body{
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
-    width: 100%;
+    
 }
 *{
     box-sizing: border-box;
@@ -15,7 +15,7 @@ body{
 
 .container{
     background-color: rgb(246, 240, 240);
-    width: 100vw;
+  
     
     
    
@@ -800,5 +800,9 @@ margin-right: 5rem;
 }
 .section2 ul {
     padding-left: 0;
+}
+.section1 header {
+    width: 90vw;
+    overflow-x: hidden;
 }
 }
