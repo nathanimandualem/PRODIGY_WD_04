@@ -188,7 +188,11 @@ body{
      font-weight: 800;
 }
 .section2 ul{
-    gap: 2rem;
+    padding-left: 0;
+        display: flex;
+        flex-direction: column;
+        list-style-type: disc;
+        gap: 1rem;
 }
 
 .section2 .line2{
@@ -675,7 +679,7 @@ border-radius: 50%;
     font-size: 15px;
   }
   .section2 ul li {
-    font-size: 13px;
+    font-size: 18px;
   }
   .section2 .main{
     padding: 0;
