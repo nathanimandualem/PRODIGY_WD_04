@@ -77,6 +77,7 @@ body{
   display: flex;
   align-items: center;
   padding: 5rem;
+  overflow:visible;
 
 }
 .main .image{
@@ -132,6 +133,9 @@ body{
     
 
 }
+.sidebar a{
+    overflow: visible;
+}
 
 .sidebar a button{
     font-size: 18px;
@@ -141,6 +145,7 @@ body{
     border: 2px solid black;
     padding: 10px;
     width: 8rem;
+    overflow: visible;
     
     
 }
@@ -225,12 +230,15 @@ body{
     justify-content: center;
 }
 .section3 .image{
-    margin: 100px 0 0 250px;
+    margin: 100px 0 0 150px;
     width: 70%;
     height: 350px;
     display: flex;
     justify-content: center;
     gap: 10px;
+    overflow: visible;
+}
+.section3 .image a{
     overflow: visible;
 }
 .section3 .image p{
@@ -281,6 +289,9 @@ body{
     padding: 4rem;
     gap: 3rem;
 }
+.main1 .firstDiv{
+    overflow: visible;
+}
 .section4 .text1{
    font-size: 30rem;
    font-weight: bold;
@@ -292,7 +303,7 @@ body{
     display: flex;
     flex-direction: column;
     gap: 3rem;
-    padding-top: 5rem;
+    padding-top: 7rem;
 }
 .section4 .texts p{
     margin: 0;
@@ -315,6 +326,9 @@ body{
 .section4 .main2 p:hover{
     transform: translateY(-40px);
 }
+.section4 .main2 .part{
+    overflow: visible;
+}
 
 
 
@@ -329,6 +343,7 @@ body{
     justify-content: center;
     align-items: center;
     transition: all ease-in-out 0.3s;
+    overflow: visible;
 }
 .section5 .button a{
     text-decoration: none;
@@ -371,6 +386,7 @@ body{
 .section6 .text1 {
     font-size: 50px;
     font-family: cursive;
+    overflow: visible;
    
 }
 .section6 .firstText p{
@@ -381,12 +397,17 @@ body{
 }
 .section6 .part1{
     margin-right: 30rem;
+    overflow: visible;
+}
+.section6 .texts{
+    overflow: visible;
 }
 
 .section6 .part1 img{
 width: 10rem;
 height: 10rem;
 border-radius: 50%;
+
 }
 .section6 .part2{
     margin-left: 30rem;
@@ -403,19 +424,24 @@ border-radius: 50%;
 }
 .section6 .part3{
     margin-right: 30rem;
+    overflow: visible;
 }
 .section6 .part3 .images{
     display: flex;
     gap: 3rem;
+    overflow: visible;
 }
 .section6 .part3 img{
     border-radius: 50%;
     width: 10rem;
     height: 10rem;
+    overflow: visible;
+    
 }
 .section6 .part1 .images{
     display: flex;
     gap: 3rem;
+    overflow: visible;
 }
 .section6 .text2{
     font-size: 20px;
@@ -433,6 +459,7 @@ border-radius: 50%;
 }
 .section7 .main1{
     padding: 0;
+    overflow: visible;
 }
 .section7 .text1{
     font-size: 30px;
@@ -467,20 +494,25 @@ border-radius: 50%;
 .section7 .main2{
     display: flex;
     gap: 2.5rem;
+    overflow: visible;
 }
 .section7 .main3{
     display: flex;
     gap: 2.5rem;
+    overflow: visible;
 }
 .section7 p{
     font-size: 20px;
 }
 @media (max-width: 1000px) {
+    .section4 .texts {
+        padding-top: 5rem;
+    }
     .section3 .image {
         margin: 100px;
     }
     .main1{
-        padding: 5rem;
+        padding:2rem;
     }
     .section4 .text1{
         font-size: 20rem;
@@ -503,16 +535,18 @@ border-radius: 50%;
     }
     .section5 .texts{
         width: 20rem;
+        overflow: visible;
     }
     .section6 .part1 img{
         width: 5rem;
         height: 5rem;
+        overflow: visible;
     }
     .section6 .text1 {
         font-size: 35px;
     }
     .section6 .text2{
-        width: 35rem;
+        width: 24rem;
     }
     .section6 .part2{
         margin-left: 15rem;
@@ -579,7 +613,7 @@ border-radius: 50%;
     cursor: pointer;
     position: absolute;
     top: 10px;
-    right: 50px;
+    right: 20px;
   }
   .section1 header{
     width: 100vw;
@@ -660,7 +694,7 @@ border-radius: 50%;
 }
 .section3 .part2{
     margin-top: 70rem;
-    flex-direction: row;
+    flex-direction: column;
     padding: 3rem;
 
 }
@@ -684,9 +718,11 @@ border-radius: 50%;
 }
 .section6 .part2 {
     margin-left: 0;
+    overflow: visible;
 }
 .section6 .part4 {
     margin-left: 0;
+    overflow: visible;
 }
 .section5 .line{
     width: 60vw;
@@ -700,6 +736,7 @@ border-radius: 50%;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    overflow: visible;
 }
 .main .mainText {
     position: absolute;
@@ -751,7 +788,8 @@ margin-right: 5rem;
     margin-left: 20px;
 }
 .section6{
-    margin-top: 50rem;
+    margin-top: 30rem;
+        overflow: visible;
 }
 .section7{
     margin-top: 90rem;
@@ -774,7 +812,8 @@ margin-right: 5rem;
     
 }
 .firstText{
-    margin-bottom: 50rem;
+    margin-bottom: 45rem;
+    overflow: visible;
 }
 .main1{
     padding: 1.5rem;
@@ -833,8 +872,8 @@ margin-right: 5rem;
     width: 17rem;
 }
 .main .text{
-    width: 16rem;
-    padding: 1rem;
+    width: 20rem;
+        padding: 3rem
 }
 #sidebar2{
     width: 50%;
@@ -842,6 +881,9 @@ margin-right: 5rem;
 .section3 .image{
     overflow:visible;
   
+}
+.section4 .main2 p{
+    font-size: 14px;
 }
 
 }
