@@ -584,6 +584,7 @@ border-radius: 50%;
     transform: scale(1.2);
   }
   #sidebar2 {
+    display: none;
     height: 100%;
     
     position: fixed;
@@ -601,6 +602,7 @@ border-radius: 50%;
 
   }
   #sidebar2 p a{
+    
     font-size: 20px;
     color: white;
     text-decoration: none;
