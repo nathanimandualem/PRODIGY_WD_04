@@ -584,7 +584,7 @@ border-radius: 50%;
     transform: scale(1.2);
   }
   #sidebar2 {
-    display: none;
+    
     height: 100%;
     
     position: fixed;
@@ -597,7 +597,7 @@ border-radius: 50%;
     display: flex;
     flex-direction: column;
     padding: 4rem 2rem;
-    position: -webkit-sticky;
+    position: -webkit-fixed;
 
 
   }
