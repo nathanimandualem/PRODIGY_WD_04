@@ -532,7 +532,7 @@ border-radius: 50%;
         width: 20rem;
     }
     .section5 .part{
-        gap: 10rem;
+        gap: 4rem;
     }
     .section5 .texts{
         width: 20rem;
@@ -651,8 +651,8 @@ border-radius: 50%;
     padding-right: 0;
   }
   .main .image{
-    width: 200px;
-    height: 200px;
+    width: auto;
+    height: auto;
   }
   .main .mainText{
     font-size: 20px;
