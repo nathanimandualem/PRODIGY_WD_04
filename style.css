@@ -84,8 +84,8 @@ body{
 .main .image{
     display: flex;
     flex-direction: column;
-    width: 400px;
-    height:  400px;
+    width: auto;
+    height:  auto;
     position: relative;
     text-align: center;
     transition: all ease-in-out 0.3s;
@@ -93,7 +93,7 @@ body{
 }
 
 .main img{
- max-width: 100%;
+ 
  height: auto;
  background-color: transparent;
 }
