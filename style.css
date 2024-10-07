@@ -790,7 +790,7 @@ border-radius: 50%;
 .main img {
 width: 20rem;
 height: fit-content;
-margin-right: 5rem;
+margin-right: -2rem;
 }
 .section2 .text2 {
     font-size: 18px;
