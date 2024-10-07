@@ -496,6 +496,12 @@ border-radius: 50%;
 .section7 .main4{
     display: flex;
     gap: 2rem;
+    overflow: visible;
+}
+.section7 .main5{
+    display: flex;
+    gap: 2rem;
+    overflow: visible;
 }
 .section7 div button img{
     width: 60px;
