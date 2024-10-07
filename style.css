@@ -166,10 +166,14 @@ body{
     z-index: 1002;
 }
 .contact img{
-    width: 2rem;
-    height: 2rem;
-    border: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    transition: all ease-in-out 0.5s;
 
+}
+.contact img:hover{
+    transform: scale(1.2);
 }
 .section2{
     display: flex;
