@@ -474,6 +474,10 @@ border-radius: 50%;
 .section7 div{
     width: 25rem;
 }
+.section7 .main4{
+    display: flex;
+    gap: 2rem;
+}
 .section7 div button img{
     width: 60px;
     height: 20px;
@@ -748,7 +752,7 @@ border-radius: 50%;
 .main .mainText {
     position: absolute;
     top: 72%;
-    left: 67%;
+    left: 55%;
     width: 17rem;
 }
 .main .text {
@@ -788,7 +792,7 @@ margin-right: 5rem;
     gap: 1rem;
 }
 .section4 .main2 {
-    padding: 1rem;
+    padding: 26px;
 }
 .section5 .line {
     width: 30vw;
@@ -879,8 +883,9 @@ margin-right: 5rem;
     width: 17rem;
 }
 .main .text{
-    width: 20rem;
-        padding: 3rem
+    width: 16rem;
+    height: 11rem;
+    padding: 0rem;
 }
 #sidebar2{
     width: 50%;
@@ -890,7 +895,7 @@ margin-right: 5rem;
   
 }
 .section4 .main2 p{
-    font-size: 14px;
+    font-size: 12px;
 }
 
 }
